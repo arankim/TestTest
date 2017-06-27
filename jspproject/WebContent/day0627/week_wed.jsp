@@ -18,7 +18,8 @@ String myimg = request.getParameter("myimg");
 %>
 수요일에 태어난 아이는 수심이 많고
 <br><br>
-<img src="../image/<%=myimg %>.jpg">
+<%-- <img src="../image/<%=myimg %>.jpg"> --%>
+<img src="../image/ani04.gif">
 <br><br>
 <a href="selectweek.jsp">다시선택</a>
 </body>

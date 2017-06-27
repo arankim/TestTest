@@ -16,9 +16,10 @@
 <%
 String myimg = request.getParameter("myimg");
 %>
-일요일에 태어난 아이는 명량하고 씩씩하지요
+토요일
 <br><br>
-<img src="../image/<%=myimg %>.jpg">
+<%-- <img src="../image/<%=myimg %>.jpg"> --%>
+<img src="../image/ani07.gif">
 <br><br>
 <a href="selectweek.jsp">다시선택</a>
 </body>

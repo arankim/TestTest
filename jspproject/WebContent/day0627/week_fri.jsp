@@ -18,7 +18,8 @@ String myimg = request.getParameter("myimg");
 %>
 금요일에 태어난 아이는 사랑스러워요
 <br><br>
-<img src="../image/<%=myimg %>.jpg">
+<%-- <img src="../image/<%=myimg %>.jpg"> --%>
+<img src="../image/ani06.gif">
 <br><br>
 <a href="selectweek.jsp">다시선택</a>
 </body>
