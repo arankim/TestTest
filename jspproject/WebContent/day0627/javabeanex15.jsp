@@ -40,5 +40,6 @@ stu1.setMat(90);
 국어 : <jsp:getProperty property="kor" name="stu2"/><br>
 영어 : <jsp:getProperty property="eng" name="stu2"/><br>
 수학: <jsp:getProperty property="mat" name="stu2"/><br>
+<jsp:forward page="javabean16.jsp"></jsp:forward>
 </body>
-</html>
+</html>b
