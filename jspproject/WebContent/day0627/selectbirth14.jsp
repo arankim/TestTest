@@ -12,6 +12,7 @@
 }
 </style>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <script type="text/javascript">
 function check(){
 	
@@ -52,6 +53,8 @@ for(int i = 1; i<=12; i++){
 <br><br>
 <input type="submit" value="확인">
 =======
+=======
+>>>>>>> 3945cebb08fbc6b36648ab078433675282efb82a
 </head>
 <body>
 <h6>당신의 생일은</h6>
@@ -89,7 +92,10 @@ for(int i = 1; i<=31; i++){
 <input type="text" name="name">
 <br><br>
 <input type="button" value="submit">
+<<<<<<< HEAD
 >>>>>>> branch 'master' of https://github.com/arankim/jspTest.git
+=======
+>>>>>>> 3945cebb08fbc6b36648ab078433675282efb82a
 </form>
 </body>
 </html>

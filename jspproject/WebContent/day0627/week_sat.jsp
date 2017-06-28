@@ -17,6 +17,7 @@
 String myimg = request.getParameter("myimg");
 %>
 <<<<<<< HEAD
+<<<<<<< HEAD
 토요일
 <br><br>
 <%-- <img src="../image/<%=myimg %>.jpg"> --%>
@@ -26,6 +27,11 @@ String myimg = request.getParameter("myimg");
 <br><br>
 <img src="../image/<%=myimg %>.jpg">
 >>>>>>> branch 'master' of https://github.com/arankim/jspTest.git
+=======
+일요일에 태어난 아이는 명량하고 씩씩하지요
+<br><br>
+<img src="../image/<%=myimg %>.jpg">
+>>>>>>> 3945cebb08fbc6b36648ab078433675282efb82a
 <br><br>
 <a href="selectweek.jsp">다시선택</a>
 </body>
