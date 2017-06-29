@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <style type="text/css">
+<<<<<<< HEAD
 	#cl-dashboard{display:none;}
 </style>
 </head>
@@ -24,6 +25,22 @@
 		<jsp:param value="<%=week%>" name="myimg"/>
 	</jsp:forward>
 <br><br>
+=======
+#cl-dashboard {
+	display: none;
+}
+</style>
+</head>
+<body>
+<%
+String select = request.getParameter("week");
+String fileName = "week_"+select+".jsp";
+%>
+<jsp:forward page="<%=fileName %>">
+<jsp:param value="<%=select %>" name="myimg" />
+</jsp:forward>
+
+>>>>>>> f2f14405ccf28cdb84981b464be06c1cc7c137ca
 
 </body>
 </html>

@@ -30,7 +30,11 @@
 @
 <input type="text" name="email2">
 &nbsp;&nbsp;&nbsp;
+<<<<<<< HEAD
 <select name="emailselect" onchange = "return selectEmail()">
+=======
+<select name="emailselect">
+>>>>>>> f2f14405ccf28cdb84981b464be06c1cc7c137ca
 <option value="naver.com">naver.com</option>
 <option value="hanmail.net">hanmail.net</option>
 <option value="gmail.net">gmail.net</option>
